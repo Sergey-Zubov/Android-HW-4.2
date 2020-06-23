@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">Android-HW-4.2</string>
+    <string name="main_activity_name">Форма адреса доставки</string>
+    <string name="btn_delivery_ok">Ок</string>
+    <string-array name="countries_list">
+        <item>Россия</item>
+        <item>Украина</item>
+        <item>Белоруссия</item>
+    </string-array>
+    <string-array name="russia_cities_list">
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Казань</item>
+    </string-array>
+    <string-array name="ukraine_cities_list">
+        <item>Киев</item>
+        <item>Одесса</item>
+        <item>Харьков</item>
+    </string-array>
+    <string-array name="belarus_cities_list">
+        <item>Минск</item>
+        <item>Гомель</item>
+        <item>Орша</item>
+    </string-array>
 </resources>

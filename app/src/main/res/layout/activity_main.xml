@@ -6,13 +6,49 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Spinner
+        android:id="@+id/spinnerCountries"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinnerCities"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="@+id/spinnerCountries"
+        app:layout_constraintStart_toStartOf="@+id/spinnerCountries"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerCountries" />
+
+    <Spinner
+        android:id="@+id/spinnerHouseNumbers"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="@+id/spinnerCities"
+        app:layout_constraintStart_toStartOf="@+id/spinnerCities"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerCities" />
+
+    <Button
+        android:id="@+id/btnDeliveryOk"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/btn_corners"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="btnDeliveryOkOnClick"
+        android:text="@string/btn_delivery_ok"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/spinnerHouseNumbers"
+        app:layout_constraintStart_toStartOf="@+id/spinnerHouseNumbers" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
