@@ -2,6 +2,11 @@
     <string name="app_name">Android-HW-4.2</string>
     <string name="main_activity_name">Форма адреса доставки</string>
     <string name="btn_delivery_ok">Ок</string>
+    <string name="delivery_address">Адрес доставки:</string>
+    <string name="house_number">дом №</string>
+    <string name="prompt_countries">Выберите страну</string>
+    <string name="prompt_cities">Выберите город</string>
+    <string name="prompt_house_numbers">Выберите номер дома</string>
     <string-array name="countries_list">
         <item>Россия</item>
         <item>Украина</item>
