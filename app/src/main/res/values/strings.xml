@@ -4,27 +4,32 @@
     <string name="btn_delivery_ok">Ок</string>
     <string name="delivery_address">Адрес доставки:</string>
     <string name="house_number">дом №</string>
-    <string name="prompt_countries">Выберите страну</string>
-    <string name="prompt_cities">Выберите город</string>
-    <string name="prompt_house_numbers">Выберите номер дома</string>
+    <string name="default_countries">Выберите страну</string>
+    <string name="default_cities">Выберите город</string>
+    <string name="default_house_numbers">Выберите номер дома</string>
+    <string name="delivery_address_is_empty">Введите полный адрес доставки!</string>
     <string-array name="countries_list">
         <item>Россия</item>
         <item>Украина</item>
         <item>Белоруссия</item>
+        <item>Выберите страну</item>
     </string-array>
     <string-array name="russia_cities_list">
         <item>Москва</item>
         <item>Санкт-Петербург</item>
         <item>Казань</item>
+        <item>Выберите город</item>
     </string-array>
     <string-array name="ukraine_cities_list">
         <item>Киев</item>
         <item>Одесса</item>
         <item>Харьков</item>
+        <item>Выберите город</item>
     </string-array>
     <string-array name="belarus_cities_list">
         <item>Минск</item>
         <item>Гомель</item>
         <item>Орша</item>
+        <item>Выберите город</item>
     </string-array>
 </resources>
